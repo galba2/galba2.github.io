@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gilbert Alba</title>
+
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link id="theme-setting" rel="stylesheet" type="text/css" href="">
+
+</head>
+<body>
+
+    <section class="s1">
+        <div class="greeting"> 
+            <div class="first-greeting-wrapper">
+                <p>Hello, I'm</p>
+            </div>
+            <div class="second-greeting-wrapper">
+                <h1>Gilbert Alba</h1>
+            </div>
+            <div class="third-greeting-wrapper">
+                <img class="pic-me" src="Me.jpg" alt="Picture of Gilbert Alba" width="150" height="150">
+                <div class="social-links-wrapper">
+                    <a href="https://www.linkedin.com/in/gilbert-alba" target="_blank">
+                        <img class="social-image" src="Linkedin_image.jpg" alt="Link with an icon to Gilbert Alba's linked in profile" width="25" height="25">
+                    </a>
+                    <a href="https://github.com/galba2" target="_blank">
+                        <img class="social-image" src="github_image.png" alt="Link with an icon to Gilbert Alba's git hub profile" width="25" height="25">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-heading" id="programming-languages">Programming Languages</h2>
+        <div class="skills-wrapper">
+            <h3>Java</h3>
+            <h3>SQL</h3>
+            <h3>HTML/CSS</h3>
+            <h3>JavaScript</h3>
+            <h3>Android Studio</h3>
+            <h3>C++</h3>
+        </div>
+    </section>
+
+    <section class="s2">
+        <h2 class="section-heading">Portfolio</h2>
+        <p class="paragraph-text">
+            Here are some of my projects. Click on an image to go to that project's github.
+        </p>
+        <div class="theme-wrapper">
+            <h2 class="section-heading" id="choose-website-theme">Choose Website Theme</h2>
+            <div class="theme-buttons-wrapper">
+                <div data-style="default"     class="theme-button" id="default-theme"></div>
+                <div data-style="dark" class="theme-button" id="dark-theme"></div>
+                <div data-style="pink" class="theme-button" id="pink-theme"></div>
+                <div data-style="neon" class="theme-button" id="neon-theme"></div>
+            </div>
+            <p>(Your theme will be saved for the next time you visit this page.)</p>
+        </div>
+        <div class="portfolio-project-wrapper">
+            <div class="project-design">
+                <div class="project-image-wrapper">
+                    <a href="https://github.com/galba2/QAM2.git" target="_blank">
+                        <img class="project-image" src="Client Tracker pic.png" alt="Link with a picture of project Client Tracker" width="200" height="100">
+                    </a>
+                </div>
+                <p>
+                    This is a capstone school project. It connects to a database 
+                        to create, retreive, update, and delete customer's and employee's data. It 
+                        also keeps track of customer appointments.
+                </p>
+                <div class="youtube-line-wrapper">
+                    <a href="https://www.youtube.com/watch?v=NCnuyXV6QTs" target="_blank">
+                        <img class="project-image" src="YouTube Icon.png" alt="Link to you tube video of Client Tracker" width="59" height="19">
+                    <a href="https://www.youtube.com/watch?v=NCnuyXV6QTs" target="_blank">Watch video</a>
+                </div>
+            </div>
+            <div class="project-design">
+                <div class="project-image-wrapper">
+                    <a href="https://github.com/galba2/Term-Tracker.git" target="_blank">
+                        <img class="project-image" src="Term-Tracker Title.png" alt="Link with a picture of project Term Tracker" width="200" height="50">
+                    </a>
+                    <a href="https://github.com/galba2/Term-Tracker.git" target="_blank">
+                        <img class="project-image" src="Term-Tracker Icon.png" alt="Link with a picture of project Term Tracker" width="100" height="100">
+                    </a>
+                </div>
+                <p>
+                    This is a school project in Android Studio. This app tracks a student's 
+                        semesters, terms, and exams. It also notifies a student two days and 
+                        one day before an event takes place.
+                </p>
+                <div class="youtube-line-wrapper">
+                    <a href="https://www.youtube.com/watch?v=yFlv5218LqI" target="_blank">
+                        <img class="project-image" src="YouTube Icon.png" alt="Link to you tube video of Term Tracker" width="59" height="19">
+                    <a href="https://www.youtube.com/watch?v=yFlv5218LqI" target="_blank">Watch video</a>
+                </div>
+            </div>
+            <div class="project-design">
+                <div class="project-image-wrapper">
+                    <a href="https://github.com/galba2/Portfolio-Webpage" target="_blank">
+                        <img class="project-image" src="Porfolio Website.png" alt="Link with a picture of project portfolio website" width="150" height="150">
+                    </a>
+                </div>
+                <p> This is the portfolio website you are on now.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="s2" id="contact-section">
+        <h2 class="section-heading">Contact</h2>
+        <div>
+            <form id="contact-form" onsubmit="sendEmail(); reset(); return false">
+                <label>Name</label>
+                <input class="input-field" type="text" name="name" id="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject" id="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="text" name="email" id="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea id="message">
+
+                <input id="submit-button" type="submit" value="Send">
+            </form>
+        </div>
+        
+    </section>
+
+    <section class="s2">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-me-wrapper"> 
+            <p class="about-paragraph-text">
+                I am a recent graduate, enthusiastically looking to make a career change into the software development
+                 field. I will continue my education by pursing a master&apos;s degree and earning additional
+                 certifications. I believe that working hard and having a love to learn will help make an
+                 excellent transition into the field.<br><br>
+            </p>
+            <p class="about-paragraph-text">
+                I have always had a love for programming, but my sense of duty to our country
+                 was stronger.  I joined the Army after high school and obtained other jobs after that.
+                 I then had the opportunity to make a career change and pursue my dream job. I took it,
+                 graduated college, and I am now prepared to work as a software developer.
+            </p>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="theme_script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "gilbertalba3@gmail.com",
+                Password : "ilmeafesimp1110",
+                To : 'gilbertalba3@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script>
+</body>
+</html>

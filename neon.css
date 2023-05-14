@@ -1,0 +1,13 @@
+:root{
+    
+    --mainText:#ffff33;
+    --secondaryText:#39ff14;
+
+    --mainBackground:#9d00ff;
+    --secondaryBackground:#1f51ff;
+    --tertiaryBackground:#bf40bf;/*bf40bf*/
+
+    --textShadow:#ff5f1f;/*ff5f1f*/
+    --send-button-color:#ff3131;
+
+}

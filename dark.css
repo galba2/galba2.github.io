@@ -1,0 +1,12 @@
+:root{
+    
+    --mainText:white;
+    --secondaryText:#dddddd;
+
+    --mainBackground:black;
+    --secondaryBackground:#555555;
+    --tertiaryBackground:#333333;
+
+    --textShadow:#aaa;
+    --send-button-color:#112233;
+}

@@ -1,0 +1,12 @@
+:root{
+    
+    --mainText:white;
+    --secondaryText:#fefefe;
+
+    --mainBackground:pink;
+    --secondaryBackground:#ffd8f0;
+    --tertiaryBackground:#ff90a8;
+
+    --textShadow:#ff60a8;
+    --send-button-color:#904860;
+}

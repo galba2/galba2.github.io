@@ -112,23 +112,23 @@
     <section class="s2" id="contact-section">
         <h2 class="section-heading">Contact</h2>
         <div>
-            <form id="contact-form" onsubmit="sendEmail(); reset(); return false">
-                <label>Name</label>
-                <input class="input-field" type="text" name="name" id="name">
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input class="input-field" type="text" name="name">
 
-                <label>Subject</label>
-                <input class="input-field" type="text" name="subject" id="subject">
+                <label for="subject">Subject</label>
+                <input class="input-field" type="text" name="subject">
 
-                <label>Email</label>
-                <input class="input-field" type="text" name="email" id="email">
+                <label for="email">Email</label>
+                <input class="input-field" type="email" name="email">
 
-                <label>Message</label>
-                <textarea class="input-field" name="message"></textarea id="message">
+                <label for="message">Message</label>
+                <textarea class="input-field" name="message"></textarea>
 
                 <input id="submit-button" type="submit" value="Send">
             </form>
         </div>
-        
+        <p id="result-text"></p>
     </section>
 
     <section class="s2">
@@ -150,21 +150,6 @@
     </section>
 
     <script type="text/javascript" src="theme_script.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail(){
-            Email.send({
-                Host : "smtp.gmail.com",
-                Username : "gilbertalba3@gmail.com",
-                Password : "ilmeafesimp1110",
-                To : 'gilbertalba3@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : "New Contact Form Enquiry",
-                Body : "And this is the body"
-            }).then(
-            message => alert(message)
-            );
-        }
-    </script>
+    
 </body>
 </html>

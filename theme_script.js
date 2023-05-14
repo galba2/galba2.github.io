@@ -28,7 +28,7 @@ function setThemeStyle(style){
 
 //Contact Form
 const form = document.querySelector("form");
-form.addEventListener("submit'", (event) => {
+form.addEventListener("submit", (event) => {
     //prevent the form from refreshing the page
     event.preventDefault();
 
